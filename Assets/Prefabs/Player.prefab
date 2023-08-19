@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 1945531071858513281}
   - component: {fileID: 4592116469688126422}
   - component: {fileID: 3019435411994105977}
+  - component: {fileID: 3559366922893317203}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -100,7 +101,7 @@ Transform:
   - {fileID: 6948684482922497244}
   - {fileID: 7652445280588505166}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4364674599289303245
 SpriteRenderer:
@@ -220,7 +221,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8328672593367932633}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4bb3677420b49af45b34450068a78861, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -243,7 +244,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01790239, y: 0.04300703}
+  m_Offset: {x: -0.020296566, y: 0.029838964}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -254,7 +255,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1233311, y: 0.07515946}
+  m_Size: {x: 0.12141578, y: 0.101495594}
   m_EdgeRadius: 0
 --- !u!58 &1945531071858513281
 CircleCollider2D:
@@ -265,7 +266,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 8328672593367932633}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4bb3677420b49af45b34450068a78861, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -303,7 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c340601fb145a4d418e0269db4b44505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 400
+  m_JumpForce: 184.3
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -332,3 +333,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 4592116469688126422}
+--- !u!95 &3559366922893317203
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328672593367932633}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ba668f2c97ad408449ea77339f943ad3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
