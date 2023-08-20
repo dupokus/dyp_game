@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator characterAnimator;
 
     float horizontalMove = 0f;
-    float runSpeed = 40f;
+    float runSpeed = 20f;
     bool jump = false;
     // Update is called once per frame
     void Update()
@@ -20,7 +20,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            characterAnimator.SetBool("IsJumping", true);
         }
+    }
+    public void OnLanding()
+    {
+        characterAnimator.SetBool("IsJumping", false);
     }
 
     private void FixedUpdate()
@@ -29,4 +34,6 @@ public class PlayerMovement : MonoBehaviour
         characterController.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;   
     }
+
+    
 }       

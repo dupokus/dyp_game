@@ -1147,6 +1147,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8906193570861289792, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8906193570861289792, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2038552998688511192, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1199,6 +1207,10 @@ PrefabInstance:
       propertyPath: characterAnimator
       value: 
       objectReference: {fileID: 30550263}
+    - target: {fileID: 4592116469688126422, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 8328672593367932633, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Name
       value: Player
