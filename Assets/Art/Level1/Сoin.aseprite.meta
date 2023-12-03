@@ -119,7 +119,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: coin_Frame_0
+  - name: "\u0421oin_Frame_0"
     originalName: 
     pivot: {x: 0.62499994, y: -0.15384614}
     alignment: 9
@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 25
       width: 4
       height: 13
-    spriteID: 21bf7a234779e174cbd967594fef9d41
+    spriteID: 37d7fc6f60ff4264795405129b9578a0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,7 +139,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 24, y: 23}
-  - name: coin_Frame_1
+  - name: "\u0421oin_Frame_1"
     originalName: 
     pivot: {x: 0.49999997, y: -0.15384614}
     alignment: 9
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 25
       width: 7
       height: 13
-    spriteID: b3ba3dcd0354fe748b2992c57c06979e
+    spriteID: c29dcf8d36496b34fb8099166e252fb3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -159,7 +159,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: -5, y: 23}
-  - name: coin_Frame_2
+  - name: "\u0421oin_Frame_2"
     originalName: 
     pivot: {x: 0.5, y: -0.15384614}
     alignment: 9
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 11
       height: 13
-    spriteID: b679b4af8658680429170577862ff204
+    spriteID: 4277fa7d88d76534eb4c1fc6bb9f6219
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,7 +179,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 18, y: 2}
-  - name: coin_Frame_3
+  - name: "\u0421oin_Frame_3"
     originalName: 
     pivot: {x: 0.5, y: -0.15384614}
     alignment: 9
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 13
       height: 13
-    spriteID: 40a1fe181a490964cb5dcad83dff68da
+    spriteID: 6491463fd0025f24681b145259fe2074
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,7 +199,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: -2, y: 2}
-  - name: coin_Frame_4
+  - name: "\u0421oin_Frame_4"
     originalName: 
     pivot: {x: 0.5, y: -0.15384614}
     alignment: 9
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 4
       width: 11
       height: 13
-    spriteID: 272a558b74088524480b8e45c8b47dbc
+    spriteID: 3b543abebf1a4bc4d93c12c8d7035161
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -219,7 +219,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 37, y: 2}
-  - name: coin_Frame_5
+  - name: "\u0421oin_Frame_5"
     originalName: 
     pivot: {x: 0.49999997, y: -0.15384614}
     alignment: 9
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 25
       width: 7
       height: 13
-    spriteID: 4f5791926fc15e04cbc00acd91347c69
+    spriteID: 8c2e5da70a9d7e647b307a559a626e9b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,60 +242,60 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1608901255
-    name: coin
+    guid: 1594621165
+    name: "\u0421oin"
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: coin_Frame_0
+    - name: "\u0421oin_Frame_0"
       frameIndex: 0
       cellRect:
         x: -4
         y: 0
         width: 50
         height: 50
-      spriteId: 21bf7a234779e174cbd967594fef9d41
-    - name: coin_Frame_1
+      spriteId: 37d7fc6f60ff4264795405129b9578a0
+    - name: "\u0421oin_Frame_1"
       frameIndex: 1
       cellRect:
         x: -4
         y: 0
         width: 50
         height: 50
-      spriteId: b3ba3dcd0354fe748b2992c57c06979e
-    - name: coin_Frame_2
+      spriteId: c29dcf8d36496b34fb8099166e252fb3
+    - name: "\u0421oin_Frame_2"
       frameIndex: 2
       cellRect:
         x: -4
         y: 0
         width: 50
         height: 50
-      spriteId: b679b4af8658680429170577862ff204
-    - name: coin_Frame_3
+      spriteId: 4277fa7d88d76534eb4c1fc6bb9f6219
+    - name: "\u0421oin_Frame_3"
       frameIndex: 3
       cellRect:
         x: -4
         y: 0
         width: 50
         height: 50
-      spriteId: 40a1fe181a490964cb5dcad83dff68da
-    - name: coin_Frame_4
+      spriteId: 6491463fd0025f24681b145259fe2074
+    - name: "\u0421oin_Frame_4"
       frameIndex: 4
       cellRect:
         x: -4
         y: 0
         width: 50
         height: 50
-      spriteId: 272a558b74088524480b8e45c8b47dbc
-    - name: coin_Frame_5
+      spriteId: 3b543abebf1a4bc4d93c12c8d7035161
+    - name: "\u0421oin_Frame_5"
       frameIndex: 5
       cellRect:
         x: -4
         y: 0
         width: 50
         height: 50
-      spriteId: 4f5791926fc15e04cbc00acd91347c69
+      spriteId: 8c2e5da70a9d7e647b307a559a626e9b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
