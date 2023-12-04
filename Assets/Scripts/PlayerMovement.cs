@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator characterAnimator;
 
     float horizontalMove = 0f;
-    float runSpeed = 20f;
+    [SerializeField] float runSpeed = 20f;
     bool jump = false;
     // Update is called once per frame
     void Update()

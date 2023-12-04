@@ -1036,8 +1036,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AssetsPPU: 100
-  m_RefResolutionX: 320
-  m_RefResolutionY: 180
+  m_RefResolutionX: 1920
+  m_RefResolutionY: 1080
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 0
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 0.6, z: 0}
-  damping: 0.5
+  damping: 0
   target: {fileID: 864020399}
 --- !u!1 &755391638
 GameObject:
@@ -1648,6 +1648,18 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1945531071858513281, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Radius
+      value: 0.05605261
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945531071858513281, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.020199418
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945531071858513281, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.019856587
+      objectReference: {fileID: 0}
     - target: {fileID: 2038552998688511192, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1692,6 +1704,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11780809
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.022096552
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3019435411994105977, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3019435411994105977, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: playerAnimator
       value: 
@@ -1700,6 +1732,18 @@ PrefabInstance:
       propertyPath: characterAnimator
       value: 
       objectReference: {fileID: 30550263}
+    - target: {fileID: 4364674599289303245, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 520339772, guid: c7ebb299de69153458f29daa86fe1f62, type: 3}
+    - target: {fileID: 4592116469688126422, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_JumpForce
+      value: 180.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592116469688126422, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_MovementSmoothing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4592116469688126422, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_WhatIsGround.m_Bits
       value: 55
