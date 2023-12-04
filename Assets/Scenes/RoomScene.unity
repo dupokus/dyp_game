@@ -1748,6 +1748,22 @@ PrefabInstance:
       propertyPath: m_WhatIsGround.m_Bits
       value: 55
       objectReference: {fileID: 0}
+    - target: {fileID: 6948684482922497244, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0269
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948684482922497244, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0971
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652445280588505166, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0268
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652445280588505166, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0892
+      objectReference: {fileID: 0}
     - target: {fileID: 8328672593367932633, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Name
       value: Player
