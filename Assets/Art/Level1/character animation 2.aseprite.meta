@@ -281,7 +281,7 @@ ScriptedImporter:
     uvTransform: {x: 30, y: 209}
   - name: character animation 2_Frame_8
     originalName: 
-    pivot: {x: 0.6153847, y: -2.222222}
+    pivot: {x: 0.6153847, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -301,7 +301,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 157}
   - name: character animation 2_Frame_9
     originalName: 
-    pivot: {x: 0.6153847, y: -2.222222}
+    pivot: {x: 0.6153847, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -321,7 +321,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 183}
   - name: character animation 2_Frame_10
     originalName: 
-    pivot: {x: 0.64285713, y: -2.222222}
+    pivot: {x: 0.64285713, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -341,7 +341,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 27}
   - name: character animation 2_Frame_11
     originalName: 
-    pivot: {x: 0.64285713, y: -2.222222}
+    pivot: {x: 0.64285713, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -361,7 +361,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 53}
   - name: character animation 2_Frame_12
     originalName: 
-    pivot: {x: 0.6153847, y: -2.222222}
+    pivot: {x: 0.6153847, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -381,7 +381,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 209}
   - name: character animation 2_Frame_13
     originalName: 
-    pivot: {x: 0.64285713, y: -2.222222}
+    pivot: {x: 0.64285713, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -401,7 +401,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 79}
   - name: character animation 2_Frame_14
     originalName: 
-    pivot: {x: 0.64285713, y: -2.222222}
+    pivot: {x: 0.64285713, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -421,7 +421,7 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 105}
   - name: character animation 2_Frame_15
     originalName: 
-    pivot: {x: 0.64285713, y: -2.222222}
+    pivot: {x: 0.64285713, y: -2.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -756,7 +756,7 @@ ScriptedImporter:
       frameIndex: 8
       cellRect:
         x: 42
-        y: 40
+        y: 42
         width: 13
         height: 18
       spriteId: 81eb04c05edd25947a4c956192ba8c9d
@@ -764,7 +764,7 @@ ScriptedImporter:
       frameIndex: 9
       cellRect:
         x: 42
-        y: 40
+        y: 42
         width: 13
         height: 18
       spriteId: d4ec438863c9b9b41b93f281b00c0bb3
@@ -772,7 +772,7 @@ ScriptedImporter:
       frameIndex: 10
       cellRect:
         x: 41
-        y: 40
+        y: 42
         width: 14
         height: 18
       spriteId: 12471d87f2ae8a9419a39ea048857364
@@ -780,7 +780,7 @@ ScriptedImporter:
       frameIndex: 11
       cellRect:
         x: 41
-        y: 40
+        y: 42
         width: 14
         height: 18
       spriteId: 737407171a7de8743ad7c4ede4b7aed7
@@ -788,7 +788,7 @@ ScriptedImporter:
       frameIndex: 12
       cellRect:
         x: 42
-        y: 40
+        y: 42
         width: 13
         height: 18
       spriteId: ff101c3cecb72d842a18a7d240974307
@@ -796,7 +796,7 @@ ScriptedImporter:
       frameIndex: 13
       cellRect:
         x: 41
-        y: 40
+        y: 42
         width: 14
         height: 18
       spriteId: e4c5090689bc1fc458983614b2c7db4f
@@ -804,7 +804,7 @@ ScriptedImporter:
       frameIndex: 14
       cellRect:
         x: 41
-        y: 40
+        y: 42
         width: 14
         height: 18
       spriteId: 96becd72b8274cd40876b280caf7f5fa
@@ -812,7 +812,7 @@ ScriptedImporter:
       frameIndex: 15
       cellRect:
         x: 41
-        y: 40
+        y: 42
         width: 14
         height: 18
       spriteId: afe8cfde0001ef94e82b95e3394d0ad1

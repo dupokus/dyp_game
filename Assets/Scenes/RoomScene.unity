@@ -1650,11 +1650,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1945531071858513281, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Radius
-      value: 0.05605261
+      value: 0.06514343
       objectReference: {fileID: 0}
     - target: {fileID: 1945531071858513281, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Offset.x
-      value: 0.020199418
+      value: -0.02070909
       objectReference: {fileID: 0}
     - target: {fileID: 1945531071858513281, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Offset.y
@@ -1706,19 +1706,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Size.x
-      value: 0.11780809
+      value: 0.11477777
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Size.y
+      value: 0.07422319
       objectReference: {fileID: 0}
     - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Offset.x
-      value: 0.022096552
+      value: -0.020327225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.043475166
       objectReference: {fileID: 0}
     - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 2376982903957384064, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 3019435411994105977, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: runSpeed
@@ -1735,7 +1743,7 @@ PrefabInstance:
     - target: {fileID: 4364674599289303245, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 520339772, guid: c7ebb299de69153458f29daa86fe1f62, type: 3}
+      objectReference: {fileID: 404439830, guid: 55bbb159d5cfff6478df60f8f312d640, type: 3}
     - target: {fileID: 4592116469688126422, guid: 988f517f803991e4d8cf9fc13d4ef136, type: 3}
       propertyPath: m_JumpForce
       value: 180.2

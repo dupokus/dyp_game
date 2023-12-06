@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c7ebb299de69153458f29daa86fe1f62
+guid: 79c16b14bd842f84198d57338eb0d5f9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,28 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character idle animation 2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13b21e58681735c46a55512f9ff912e8
-      internalID: 520339772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character idle animation 2_1
+      name: character jump animation 2_0
       rect:
         serializedVersion: 2
         x: 36
@@ -158,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea8afa9ea9ed1af45918ccd8560d03b3
-      internalID: -172187056
+      spriteID: 6fec0c1531e039645bd3c875877d9491
+      internalID: -139001356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character idle animation 2_2
+      name: character jump animation 2_1
       rect:
         serializedVersion: 2
         x: 72
@@ -179,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83c6d600bc5559c47897ac006f7cb3bd
-      internalID: 1151387334
+      spriteID: 784fb72b5ac59b74ca270e1ae6741d78
+      internalID: 337832364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character idle animation 2_3
+      name: character jump animation 2_2
       rect:
         serializedVersion: 2
         x: 108
@@ -200,8 +179,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc12b8e2fda67f4799e50f4b8cc4966
-      internalID: 1952517783
+      spriteID: af4d4bdb622eeec48b274e51370f0c3c
+      internalID: -1897172609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump animation 2_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae65f90e1bcf2ec49b14adb56bd70e29
+      internalID: -1262564608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character jump animation 2_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c1a252ea697fb4c8b78901435a3d2f
+      internalID: -135407906
       vertices: []
       indices: 
       edges: []
@@ -217,10 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character idle animation 2_0: 520339772
-      character idle animation 2_1: -172187056
-      character idle animation 2_2: 1151387334
-      character idle animation 2_3: 1952517783
+      character jump animation 2_0: -139001356
+      character jump animation 2_1: 337832364
+      character jump animation 2_2: -1897172609
+      character jump animation 2_3: -1262564608
+      character jump animation 2_4: -135407906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

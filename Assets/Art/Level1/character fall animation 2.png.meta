@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c7ebb299de69153458f29daa86fe1f62
+guid: 0432a116e74a65144a410b0487490992
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character idle animation 2_0
+      name: character fall animation 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13b21e58681735c46a55512f9ff912e8
-      internalID: 520339772
+      spriteID: 95a71878789a9bc449eeb0d74d35ed1e
+      internalID: -625972638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character idle animation 2_1
+      name: character fall animation 2_1
       rect:
         serializedVersion: 2
         x: 36
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea8afa9ea9ed1af45918ccd8560d03b3
-      internalID: -172187056
+      spriteID: 4e6442f7509c9c747aa126cf1f077d59
+      internalID: 1757540803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character idle animation 2_2
+      name: character fall animation 2_2
       rect:
         serializedVersion: 2
         x: 72
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83c6d600bc5559c47897ac006f7cb3bd
-      internalID: 1151387334
+      spriteID: 7a3bbb6838557234f979dfb67d86fa0d
+      internalID: -1592412532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character idle animation 2_3
+      name: character fall animation 2_3
       rect:
         serializedVersion: 2
         x: 108
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc12b8e2fda67f4799e50f4b8cc4966
-      internalID: 1952517783
+      spriteID: d6cf96686c03a084abf17c5e43eeda4b
+      internalID: -904414767
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character idle animation 2_0: 520339772
-      character idle animation 2_1: -172187056
-      character idle animation 2_2: 1151387334
-      character idle animation 2_3: 1952517783
+      character fall animation 2_0: -625972638
+      character fall animation 2_1: 1757540803
+      character fall animation 2_2: -1592412532
+      character fall animation 2_3: -904414767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
