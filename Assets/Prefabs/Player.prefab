@@ -23,13 +23,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6273646112542679561}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0125, y: 0.046, z: 0}
+  m_LocalPosition: {x: 0.0269, y: 0.0971, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2038552998688511192}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6964459375070318929
 GameObject:
@@ -54,13 +54,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6964459375070318929}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0125, y: -0.0802, z: 0}
+  m_LocalPosition: {x: 0.0268, y: -0.0892, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2038552998688511192}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8328672593367932633
 GameObject:
@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 3019435411994105977}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,6 +93,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8328672593367932633}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.28460443, y: -0.70311916, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -101,7 +102,6 @@ Transform:
   - {fileID: 6948684482922497244}
   - {fileID: 7652445280588505166}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4364674599289303245
 SpriteRenderer:
@@ -144,7 +144,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1099523233, guid: aaa02e6c001f03e42863148635f72c45, type: 3}
+  m_Sprite: {fileID: 404439830, guid: 55bbb159d5cfff6478df60f8f312d640, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -244,7 +244,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.020296566, y: 0.029838964}
+  m_Offset: {x: -0.020327225, y: 0.043475166}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -255,7 +255,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12141578, y: 0.101495594}
+  m_Size: {x: 0.11477777, y: 0.07422319}
   m_EdgeRadius: 0
 --- !u!58 &1945531071858513281
 CircleCollider2D:
@@ -289,9 +289,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.020222299, y: -0.018088304}
+  m_Offset: {x: -0.02070909, y: -0.019856587}
   serializedVersion: 2
-  m_Radius: 0.061296843
+  m_Radius: 0.06514343
 --- !u!95 &3559366922893317203
 Animator:
   serializedVersion: 5
@@ -325,16 +325,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c340601fb145a4d418e0269db4b44505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 184.3
-  m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.05
-  m_AirControl: 1
+  m_JumpForce: 180.2
+  m_MovementSmoothing: 0
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_GroundCheck: {fileID: 7652445280588505166}
-  m_CeilingCheck: {fileID: 6948684482922497244}
-  m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -350,9 +346,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &3019435411994105977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,4 +359,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 4592116469688126422}
-  characterAnimator: {fileID: 0}
+  characterAnimator: {fileID: 3559366922893317203}
+  runSpeed: 6
