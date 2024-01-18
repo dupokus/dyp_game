@@ -35,6 +35,7 @@ public class ObjectGrabber : MonoBehaviour
             }
             else if (Keyboard.current.fKey.wasPressedThisFrame)
             {
+                
                 grabbedObject.GetComponent<Rigidbody2D>().isKinematic = false;
                 grabbedObject.transform.SetParent(null);
                 grabbedObject = null;
