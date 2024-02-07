@@ -1,15 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PressPlate : MonoBehaviour
 {
     // Animator components for both objects
     private Animator buttonAnimator;
     private Animator chestAnimator;
-
-   
-
     void Start()
     {
         buttonAnimator = GetComponent<Animator>(); // Animator for this object (Button)
@@ -20,7 +18,7 @@ public class PressPlate : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.name == "Player" && Input.GetKeyDown(KeyCode.E))
+        if (collision.transform.name == "Player" && Keyboard.current.fKey.wasPressedThisFrame)
         {
             
             buttonAnimator.Play("PressPlate_Pressed"); // Play animation on this object
