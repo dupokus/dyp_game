@@ -12,6 +12,13 @@ public class Coin : MonoBehaviour
         // Check if colliding with the player
         if (collision.gameObject.tag == "Player")
         {
+            // Increment the player's coin count
+            PlayerCoin player = collision.gameObject.GetComponent<PlayerCoin>();
+            if (player != null)
+            {
+                player.coins++;
+            }
+
             // Add score or other game logic here
             Debug.Log("Collected a coin!");
 

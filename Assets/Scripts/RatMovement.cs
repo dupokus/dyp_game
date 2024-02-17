@@ -10,6 +10,8 @@ public class RatMovement : MonoBehaviour
     [SerializeField] private Transform rightLimit;
     private bool movingRight = true;
     private Transform player;
+    [SerializeField] private Animator animator;
+    public bool ratIsDead = false;
 
     void Start()
     {
@@ -76,8 +78,26 @@ public class RatMovement : MonoBehaviour
 
         if (Vector2.Distance(transform.position, player.position) <= attackRange)
         {
-            Debug.Log("Player dies, ENDGAME");
-            // Destroy(player.gameObject);
+            // Get the PlayerHealth component and reduce health
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(1); // Reduce health by 10
+            }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Interactive")
+        {
+            animator.Play("Rat_Dies");
+            ratIsDead = true;
+            this.enabled = false;
+
+            gameObject.layer = LayerMask.NameToLayer("DeadObjects");
+            collision.gameObject.layer = LayerMask.NameToLayer("DeadObjects");
+
         }
     }
 }
