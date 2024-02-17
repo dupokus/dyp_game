@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour
     [Range(0, .3f)][SerializeField] private float m_MovementSmoothing = .05f;   // How much to smooth out the movement
     [SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
     [SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
-    
-    
 
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
@@ -23,8 +21,6 @@ public class PlayerController : MonoBehaviour
     [Space]
 
     public UnityEvent OnLandEvent;
-
-
 
     private void Awake()
     {
@@ -79,11 +75,10 @@ public class PlayerController : MonoBehaviour
         if (m_Grounded && jump)
         {
             // Add a vertical force to the player.
-            m_Grounded = true;  // note: this was false when downloaded from Brackeys.
+            m_Grounded = false;  
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
         }
     }
-
 
     private void Flip()
     {

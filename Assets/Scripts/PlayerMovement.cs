@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     [SerializeField] float runSpeed = 20f;
     bool jump = false;
-    // Update is called once per frame
+
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;

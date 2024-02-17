@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 9836b735cc181f9448b9eda5a865c9df
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Cauldron_Frame_0
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.078947365}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 120
+      width: 74
+      height: 38
+    spriteID: 4494c9aa1e40cc94ab5f7bfc19bf54a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 120}
+  - name: Cauldron_Frame_1
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.078947365}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 166
+      width: 74
+      height: 38
+    spriteID: aaebe376e78cfb34cbeedd817de7a653
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 166}
+  - name: Cauldron_Frame_2
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.069767445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 69
+      width: 74
+      height: 43
+    spriteID: 5d57daa956e94454a9c0f9d3826f4e1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 69}
+  - name: Cauldron_Frame_3
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 4
+      width: 74
+      height: 57
+    spriteID: 404851c463d96c248be3a4b66c619671
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 4}
+  - name: Cauldron_Frame_4
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.04347826}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 165
+      width: 74
+      height: 69
+    spriteID: 7e603d35a92b44c4e8424d354d6c9ac5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 165}
+  - name: Cauldron_Frame_5
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.04225352}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 86
+      width: 74
+      height: 71
+    spriteID: 678b09de08118c8468f3f81ca45a2ba8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 86}
+  - name: Cauldron_Frame_6
+    originalName: 
+    pivot: {x: 0.5202703, y: -0.040540542}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 74
+      height: 74
+    spriteID: 8b1b8ab05c165994b8f3f5c57c5d1398
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1403753452
+    name: Cauldron
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Cauldron_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 38
+      spriteId: 4494c9aa1e40cc94ab5f7bfc19bf54a8
+    - name: Cauldron_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 38
+      spriteId: aaebe376e78cfb34cbeedd817de7a653
+    - name: Cauldron_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 43
+      spriteId: 5d57daa956e94454a9c0f9d3826f4e1a
+    - name: Cauldron_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 57
+      spriteId: 404851c463d96c248be3a4b66c619671
+    - name: Cauldron_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 69
+      spriteId: 7e603d35a92b44c4e8424d354d6c9ac5
+    - name: Cauldron_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 71
+      spriteId: 678b09de08118c8468f3f81ca45a2ba8
+    - name: Cauldron_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 3
+        width: 74
+        height: 74
+      spriteId: 8b1b8ab05c165994b8f3f5c57c5d1398
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 99, y: 84}
