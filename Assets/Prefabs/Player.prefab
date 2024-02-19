@@ -79,6 +79,8 @@ GameObject:
   - component: {fileID: 3559366922893317203}
   - component: {fileID: 4592116469688126422}
   - component: {fileID: 3019435411994105977}
+  - component: {fileID: 5511603545643397997}
+  - component: {fileID: -7180070829285886051}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -361,3 +363,29 @@ MonoBehaviour:
   characterController: {fileID: 4592116469688126422}
   characterAnimator: {fileID: 3559366922893317203}
   runSpeed: 6
+--- !u!114 &5511603545643397997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328672593367932633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 299ff7aac5a5186499a60074fe4fecf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+--- !u!114 &-7180070829285886051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328672593367932633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be2d3d2f09dfea439395c2e75f3f674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
